@@ -1,0 +1,241 @@
+body {
+    direction: rtl; /* اتجاه النص من اليمين لليسار */
+    text-align: right; /* محاذاة النص لليمين */
+}
+/* Start Navbar */
+.navbar{
+    background-color: rgb(240, 122, 25);
+    .imag-logo{
+        width: 5rem;
+        border-radius: 50%;
+    }
+}
+.navbar-nav .nav-item .nav-link{
+    color: #eee;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: gold;
+}
+/* End Navbar */
+/* Start Slider  */
+.carousel-inner img{
+    height: 90vh;
+  }
+  .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+  }
+  .title-overlay{
+    width: 80%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-weight: bold;
+    div button{
+        background-color: rgb(240, 122, 25);
+        padding: 10px;
+        border-radius: 10px;
+        color: #eee;
+        font-weight: bold;
+        border: 2px solid rgb(240, 122, 25);
+        transition: transform 0.5s ease;
+    }
+    div button:hover{
+        transform: translateY(8px);
+        transition: transform 0.25s ease;
+    }
+}
+  /* End Slider */
+/* Start About */
+.About{
+    overflow: hidden;
+  }
+  .main-title::after{
+    position: absolute;
+    content: '';
+    width: 100px;
+    height: 3px;
+    background-color: darkgoldenrod;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .main-title h1 , h6{
+    font-weight: bold;
+    font-family: 'Merienda', cursive;
+    font-style: italic;
+  }
+  .image-About , .image-About2{
+    z-index: 1;
+    img{
+    transition: transform 0.7s ease-in-out; /* التأثير التدريجي عند التكبير أو التصغير */
+    }
+  }
+  
+  .image-About , .image-About2{
+    img:hover{
+      transform: scale(1.1); /* تكبير الصورة بنسبة 10% */
+      transition: transform 0.7s ease-in; 
+    }
+  }
+  .image-About::before{
+    position: absolute;
+    content: "";
+    top: -1rem;
+    right: -1rem;
+    width: 100%;
+    height: 110%;
+    background: rgb(240, 122, 25);
+    clip-path: polygon(30% 0% , 100% 0% , 100% 100% , 80% 100%  );
+    
+    z-index: -1;
+  }
+  
+  .text-about{
+    text-align: right;
+  }
+  .About-btn button{
+    background-color: rgb(240, 122, 25);
+        padding: 10px;
+        border-radius: 10px;
+        color: #eee;
+        font-weight: bold;
+        border: 2px solid rgb(240, 122, 25);
+        transition: transform 0.5s ease;
+  }
+  .About-btn button:hover{
+    transform: translateY(8px);
+    transition: transform 0.25s ease;
+  }
+  /* End About */
+  /* Start CarServices */
+  .row{
+    overflow: hidden;
+  }
+.services{
+    img{
+        width: 100%;
+        height: 400px;
+        transition: transform 0.5s ease-in-out;
+        border-radius: 0px 10% 0px 15%;
+    }
+    .card-body{
+        border-radius: 0px 15% 0px 15%;
+        transition: box-shadow 0.25s ease-in;
+        p{
+            margin: auto;
+            max-width: 75%;
+        }
+    }
+}
+.services .card-body:hover{
+    box-shadow: 5px 5px 10px  rgb(0, 0, 0);
+}
+.services img:hover{
+    transform: scale(1.02); /* تكبير الصورة بنسبة 10% */
+    transition: transform 0.7s ease-in; 
+}
+  /* End CarServices */
+  /* Start hero-section */
+  .hero-section {
+    background-image: url(../public/IMG-20250119-WA0039.jpg); /* مسار الصورة */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* طبقة سوداء شفافة لتغميق الخلفية */
+    z-index: 0;
+  }
+  
+  .text-center {
+    position: relative;
+    z-index: 1; /* لجعل النص يظهر فوق الطبقة السوداء */
+  }
+  /* End hero-section */
+  /* ٍStart ServicesSection*/
+  .map-frame {
+    border: 10px solid #fff; /* إطار أبيض حول الخريطة */
+    border-radius: 20px; /* حواف مدورة */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3); /* ظل لطيف */
+    overflow: hidden; /* يمنع الخريطة من الخروج عن الإطار */
+    position: relative;
+  }
+  
+  .map-frame::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1); /* طبقة شفافة لإضافة تأثير لطيف */
+    z-index: 1;
+    pointer-events: none; /* يسمح بالتفاعل مع الخريطة */
+  }
+  
+  /* تحسين مظهر الخريطة */
+  .leaflet-container {
+    border-radius: 10px; /* حواف مدورة للخريطة نفسها */
+  }
+  /* End ServicesSection*/
+  /* Start Footer */
+  .footer{
+    background-color: rgb(240, 122, 25);
+    .list-unstyled a{
+      text-decoration: none;
+      font-size: 20px;
+    }
+  }
+  /* تثبيت أيقونة الرسالة في أسفل يمين الشاشة */
+.fixed-contact {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column; /* لجعل الأيقونات تظهر فوق أيقونة الرسالة */
+  align-items: flex-end;
+  gap: 10px; /* المسافة بين الأيقونات */
+}
+
+/* تصميم أيقونة الرسالة */
+.fixed-contact .btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* إضافة ظل للأيقونات */
+}
+
+/* تصميم أيقونات التواصل */
+.fixed-contact .btn-success,
+.fixed-contact .btn-primary {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  /* End Footer */
