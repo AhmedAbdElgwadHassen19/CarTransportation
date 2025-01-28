@@ -11,10 +11,10 @@ const HeroSection = () => {
         </p>
         <div className="d-flex justify-content-center gap-3">
           <Button variant="warning" className="px-4 py-2">
-            <a href="https://wa.me/0532581822" className="text-decoration-none"> تواصل بنا</a>
+            <a href="https://wa.me/966532581822" className="text-decoration-none"> تواصل بنا</a>
           </Button>
           <Button variant="outline-light" className="px-4 py-2">
-          <a href="tel:+0532581822" className="text-decoration-none"> تواصل بنا</a>
+          <a href="tel:+966532581822" className="text-decoration-none"> تواصل بنا</a>
           </Button>
         </div>
       </Container>
