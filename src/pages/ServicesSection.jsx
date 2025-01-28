@@ -36,7 +36,7 @@ const ServicesSection = () => {
               </a>
             </p>
             <p style={{ fontSize: "1.25rem" }}>
-              <a href="tel:+0532581822" style={linkStyle}>
+              <a href="tel:+966532581822" style={linkStyle}>
               0532581822
               </a>
             </p>
