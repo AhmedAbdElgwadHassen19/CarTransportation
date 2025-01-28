@@ -59,10 +59,10 @@ const Footer = () => {
         {/* أيقونات التواصل (واتساب، هاتف) */}
         {showIcons && (
           <div className="d-flex flex-column gap-2 mb-2">
-            <a href="https://wa.me/0532581822" className="btn btn-success rounded-circle p-3">
+            <a href="https://wa.me/966532581822" className="btn btn-success rounded-circle p-3">
               <FaWhatsapp size={24} /> {/* أيقونة الواتساب فقط */}
             </a>
-            <a href="tel:0532581822" className="btn btn-primary rounded-circle p-3">
+            <a href="tel:+966532581822" className="btn btn-primary rounded-circle p-3">
               <FaPhone size={24} /> {/* أيقونة الهاتف فقط */}
             </a>
           </div>
