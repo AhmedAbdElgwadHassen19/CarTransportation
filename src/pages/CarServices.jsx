@@ -28,7 +28,7 @@ const CarServices = () => {
                   <h5 className="card-title text-center text-light pb-3">سحب السيارات من الجمارك</h5>
                   <p className="card-text text-center text-light">خدمات النقل السريعة والفعّالة للسيارات القادمة من الجمارك إلى</p>
                   <p className="card-text text-center text-light">الأماكن المطلوبة، مع الالتزام بالقوانين والتشريعات.</p>
-                  <button className="btn btn-warning me-3 mb-3"> <a href="https://wa.me/0532581822" className="text-decoration-none text-dark"> اتصل بنا </a></button>
+                  <button className="btn btn-warning me-3 mb-3"> <a href="https://wa.me/966532581822" className="text-decoration-none text-dark"> اتصل بنا </a></button>
                 </div>
             </div>
 
@@ -38,7 +38,7 @@ const CarServices = () => {
                   <h5 className="card-title text-center text-light pb-3">نقل بين المدن والأحياء</h5>
                   <p className="card-text text-center text-light">نحن هنا لتوفير حلاً موثوقًا لنقل سيارتك بأمان من مكان لآخر،</p>
                   <p className="card-text text-center text-light mb-3">سواء كان ذلك بين المدن أو داخل الأحياء.</p>
-                  <button className="btn btn-warning me-3 mb-3"><a href="https://wa.me/0532581822" className="text-decoration-none text-dark"> اتصل بنا </a></button>
+                  <button className="btn btn-warning me-3 mb-3"><a href="https://wa.me/966532581822" className="text-decoration-none text-dark"> اتصل بنا </a></button>
                 </div>
             </div>
 
@@ -47,7 +47,7 @@ const CarServices = () => {
                 <div className="card-body bg-dark pt-3">
                   <h5 className="card-title text-center text-light pb-3">نقل سيارات مصدومة ومعطلة</h5>
                   <p className="card-text text-center text-light mb-4">  تقديم خدمات النقل المحترفة للسيارات التي تعاني من أعطال أو تضررات.</p>
-                  <button className="btn btn-warning me-3 mb-3"> <a href="https://wa.me/0532581822" className="text-decoration-none text-dark"> اتصل بنا </a></button>
+                  <button className="btn btn-warning me-3 mb-3"> <a href="https://wa.me/966532581822" className="text-decoration-none text-dark"> اتصل بنا </a></button>
                 </div>
             </div>
           </div>
@@ -71,7 +71,7 @@ const CarServices = () => {
                 <h5 className="card-title text-center text-light pb-3">نقل بين المدن والأحياء</h5>
                 <p className="card-text text-center text-light">نحن هنا لتوفير حلاً موثوقًا لنقل سيارتك بأمان من مكان لآخر،</p>
                 <p className="card-text text-center text-light mb-3">سواء كان ذلك بين المدن أو داخل الأحياء.</p>
-                <button className="btn btn-warning me-3 mb-3"> <a href="https://wa.me/0532581822" className="text-decoration-none text-dark"> اتصل بنا </a></button>
+                <button className="btn btn-warning me-3 mb-3"> <a href="https://wa.me/966532581822" className="text-decoration-none text-dark"> اتصل بنا </a></button>
               </div>
           </div>
 
@@ -80,7 +80,7 @@ const CarServices = () => {
               <div className="card-body bg-dark pt-3">
                 <h5 className="card-title text-center text-light pb-3">نقل سيارات مصدومة ومعطلة</h5>
                 <p className="card-text text-center text-light mb-4">  تقديم خدمات النقل المحترفة للسيارات التي تعاني من أعطال أو تضررات.</p>
-                <button className="btn btn-warning me-3 mb-3"><a href="https://wa.me/0532581822" className="text-decoration-none text-dark"> اتصل بنا </a></button>
+                <button className="btn btn-warning me-3 mb-3"><a href="https://wa.me/966532581822" className="text-decoration-none text-dark"> اتصل بنا </a></button>
               </div>
           </div>
         </div>
