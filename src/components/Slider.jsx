@@ -15,8 +15,8 @@ function Slider (){
                       <h4>رفيقك في نقل السيارات! نقدم خدمات فائقة الجودة لنقل السيارات المصدومة</h4>
                       <h4>والمعطلة بأحدث التقنيات. تمتع بتجربة فريدة مع فريقنا المحترف والمدرب الذي</h4>
                       <h4>يجمع بين الاحترافية والتكنولوجيا الحديثة.</h4>
-                      <div className="mt-5 mb-3 "><button> <a href="https://wa.me/0532581822" className="text-decoration-none text-light"> تواصل معنا</a> <FaWhatsapp/></button></div>
-                      <div><button><a href="tel:+0532581822" className="text-decoration-none text-light"> تواصل معنا</a> <FaPhone/></button></div>
+                      <div className="mt-5 mb-3 "><button> <a href="https://wa.me/966532581822" className="text-decoration-none text-light"> تواصل معنا</a> <FaWhatsapp/></button></div>
+                      <div><button><a href="tel:+966532581822" className="text-decoration-none text-light"> تواصل معنا</a> <FaPhone/></button></div>
                     </div>
                   </div>
                 </div>
